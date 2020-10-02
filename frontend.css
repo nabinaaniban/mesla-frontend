@@ -56,6 +56,7 @@
       left: calc(50% - 50px);}
 
       h1{
+      font-family: Arial, Helvetica, sans-serif;
       margin: 0;
       padding: 0 0 20px;
       text-align: center;
@@ -63,6 +64,7 @@
        }
 
        .box p{
+       font-family: Arial, Helvetica, sans-serif;
        margin:0;
        padding:5px;
        font-weight: bold;
@@ -94,9 +96,7 @@
         position:absolute;
        left: 30px;
        top: 265px;
-
-
-    }
+       }
     .loginbox button:hover
        { cursor:pointer;
        background:#228b22;
@@ -124,31 +124,34 @@
 
 
        .register #info{
+       font-family: Arial, Helvetica, sans-serif;
        position:absolute;
        text-decoration:none;
        font-size:15px;
        line-height: 20px;
        color: darkgrey;
        top: 390px;
-       right:122px;
+       right:98px;
 
        }
        .login #info{
+       font-family: Arial, Helvetica, sans-serif;
        position:absolute;
        text-decoration:none;
        font-size:15px;
        line-height: 20px;
        color: darkgrey;
        top: 315px;
-       right: 135px;
+       right: 118px;
 
        }
 
        .box .login a{
+       font-family: Arial, Helvetica, sans-serif;
        position:absolute;
        text-decoration:none;
        font-weight:bold;
-       font-size:20px;
+       font-size:18px;
        line-height: 20px;
        color: darkgrey;
        top:345px;
@@ -159,10 +162,11 @@
        }
 
         .box .register a{
+        font-family: Arial, Helvetica, sans-serif;
        position:absolute;
        text-decoration:none;
        font-weight:bold;
-       font-size:20px;
+       font-size:18px;
        line-height: 20px;
        color: darkgrey;
        top:425px;
@@ -172,3 +176,4 @@
        .box .register a:hover{
        color:#228b22;
        }
+
