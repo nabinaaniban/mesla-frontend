@@ -5,6 +5,7 @@
     <title>MESLA </title>
     <!-- Material Design Bootstrap -->
 <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="somefront.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
@@ -23,22 +24,13 @@ MESLA</a>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <ul class="nav navbar-nav">
+          <li><a class="nav-link active" href="#">About Us</a>
+
         <li><a class="nav-link active" href="log_in.html">Log In<span class="sr-only">(current)</span></a></li>
-        <li><a class="nav-link active" href="registration.html">Sign up</a>
+        <li><a class="nav-link active" href="registration.html">Register</a>
     </ul>
 
-    <ul class="nav navbar-nav ml-auto">
 
-        <form class="form-inline">
-    <div class="input-group">
-      <div class="input-group-prepend ">
-        <span class="input-group-text btn-success"><i class="fas fa-search text-white mr-2"></i></span>
-      </div>
-      <input type="text" class="form-control" placeholder="Type Search Words">
-    </div>
-
-  </form>
-    </ul>
   </div>
 </nav>
 <br>
@@ -46,11 +38,26 @@ MESLA</a>
     <div class="jumbotron">
   <h1 class="display-4 white-text" style="font-weight:bold" >MESLA: Q/A</h1>
   <p class="lead white-text" style="font-family: Arial, Helvetica, sans-serif;">Welcome to our Q/A</p>
+          <p class="lead white-text" style="font-family: Arial, Helvetica, sans-serif;">Learn, Code and Interact.</p>
+
         <hr style="height:2px;border-width:0;color:white;background-color:white">
 
   <p class="white-text" style="font-family: Arial, Helvetica, sans-serif;">Register to join the community.</p>
-        <a href="registration.html" class="btn btn-success" role="button" aria-pressed="true">Register Now!</a>
+                <!--<button type="submit" class="btn btn-success">Register Now!</button>-->
+        <a href="registration.html" class="btn btn-success" role="button" aria-pressed="true" >Register Now!</a>
     </div>
+
+        <h2>Have any questions?</h2>
+         <div class="flex-container_2 shadow p-3 mb-5 bg-white rounded">
+
+        <div class="question_box3">
+            <textarea name="mytext" rows="4" cols="57" placeholder="Ask here"></textarea>
+           <br>
+            <button type="submit" class="btn btn-success">Submit</button>
+
+        </div>
+         </div>
+
 
     <div>
         <button class="btn btn-success">Java</button>
@@ -237,19 +244,17 @@ MESLA</a>
                 <h6 class="text-uppercase font-weight-bold">Links</h6>
                 <hr class="bg-success md-4 mt-0 d-inline-block mx-auto" style="width:110px; height:2px">
                 <ul class="list-unstyled">
-                    <li class="my-2"><a href="#">Home</a></li>
+                    <li class="my-2"><a href="#">MESLA</a></li>
                     <li class="my-2"><a href="#">About</a></li>
-                    <li class="my-2"><a href="#">Services</a></li>
-                    <li class="my-2"><a href="#">Contacts</a></li>
                 </ul>
             </div>
     </div>
     </div>
 
     <div class="footer-copyright text-center py-3">
-        <p>&copy; Copyright
-            <a href="#">mesla.com</a></p>
-        <p>Designed by us</p>
+                <p>&copy; Copyright
+            <a href="#">themesla</a></p>
+        <p>Designed by: Team Mesla</p>
     </div>
 </footer>
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

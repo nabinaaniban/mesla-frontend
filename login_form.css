@@ -129,7 +129,7 @@
        text-decoration:none;
        font-size:15px;
        line-height: 20px;
-       color: darkgrey;
+       color: darkgray;
        top: 406px;
        right:98px;
 
@@ -140,7 +140,7 @@
        text-decoration:none;
        font-size:15px;
        line-height: 20px;
-       color: darkgrey;
+       color: darkgray;
        top: 350px;
        right: 118px;
 
@@ -153,9 +153,9 @@
        font-weight:bold;
        font-size:18px;
        line-height: 20px;
-       color: darkgrey;
-       top:390px;
-       right:220px;
+       color: darkgray;
+       top:380px;
+       right:170px;
        }
 
        .box .login a:hover{
@@ -169,7 +169,7 @@
        font-weight:bold;
        font-size:18px;
        line-height: 20px;
-       color: darkgrey;
+       color: darkgray;
        top:435px;
        right:227px;
        }
@@ -177,4 +177,3 @@
        .box .register a:hover{
        color:#228b22;
        }
-
