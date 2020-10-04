@@ -7,9 +7,15 @@
      background-repeat: no-repeat;
      background-attachment:fixed;
       background-size: cover;
-      background-position: center center;
-      overflow: hidden;
+      background-position: center;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+
+
       }
+
+
     .box{
       width:320px;
       height: 420px;
